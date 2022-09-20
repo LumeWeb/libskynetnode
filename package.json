@@ -1,11 +1,11 @@
 {
-  "name": "libskynetnode",
+  "name": "@lumeweb/libskynetnode",
   "version": "0.1.4",
   "author": "Skynet Labs",
   "description": "libksynet, but the non-isomorphic functions are written for node instead of the browser",
   "main": "dist/index.js",
   "type": "module",
-  "types": "dist/index.d.js",
+  "types": "dist",
   "publishConfig": {
     "access": "public"
   },
