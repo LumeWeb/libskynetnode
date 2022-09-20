@@ -30,7 +30,7 @@
     "prettier": "^2.6.2"
   },
   "dependencies": {
-    "libskynet": "^0.0.63",
+    "libskynet": "https://github.com/LumeWeb/libskynet.git",
     "node-fetch": "^3.2.10"
   }
 }
