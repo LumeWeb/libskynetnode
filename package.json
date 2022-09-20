@@ -14,7 +14,7 @@
   ],
   "scripts": {
     "lint": "prettier -l 'src' 'src-test' '*.js' '*.json' && eslint 'src' 'src-test' '*.js' '*.json'",
-    "clean": "node ./clean.js",
+    "clean": "node clean.js",
     "deps": "npm install libskynet@latest && npm install node-fetch@latest && npm audit fix",
     "update-deps": "npm run clean && npm run deps && npm install",
     "update-lint": "prettier -w 'src' 'src-test' '*.js' '*.json' && eslint 'src' 'src-test' '*.js' '*.json' --fix",
